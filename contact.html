@@ -18,16 +18,15 @@
         </nav>
     </header>
     <section>
-        <h2>Formulario de contacto</h2>
-        <form action="contact.php" method="post">
-            <label for="name">Nombre</label>
+        <h2>Envíanos tu comentario</h2>
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre</label>
             <input type="text" name="name" id="name" placeholder="Nombre" required>
             <label for="email">Email</label>
             <input type="email" name="email" id="email" placeholder="Email" required>
-            <label for="message">Mensaje</label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
-            <input type="submit" value="Enviar">
-        </form>
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+            <button type="submit"> Enviar</button>
     </section>
     <footer>
         <p>© 2023 Raimon-Inazuma Eleven</p>
